@@ -10,29 +10,29 @@
 
 <body>
     <center>
-        <h1>Resultados:</h1>
-        <p>ID pesquisado: <input type="text" name="id" value="{{$pessoa->id}}" disabled> </p>
+        <h1>Resultado</h1>
+        <p>Id: <input type="text" name="id" value="{{$pessoa->id}}" disabled> </p>
         <hr>
 
 
         <form action="/editar-pessoa/{{$pessoa->id}}" method="post">
             @csrf
-            <label for="lblNome">Nome: </label>
+            <label for="lblNome">Nome do Usuário </label>
             <input type="text" name="nome" value="{{$pessoa->nome}}" >
 
             <br><br>
 
-            <label for="lblIdade">Idade: </label>
+            <label for="lblIdade">Idade do Usuário</label>
             <input type="text" name="idade" value="{{$pessoa->idade}}" >
 
             <br><br>
 
-            <button>Atualizar</button>
+            <button>atualizar</button>
         </form>
 
         <br><br>
         
-        <a href="/">Voltar ao início</a>
+        <a href="/">Home</a>
     </center>
 </body>
 

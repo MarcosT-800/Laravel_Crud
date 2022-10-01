@@ -11,22 +11,22 @@
 <body>
 
     <center>
-        <h1>Cadastro de pessoas</h1>
+        <h1>Cadastro</h1>
 
         {{ session() -> get('xyz')}}
         <form action="/inserir-pessoas" method="post">
             @csrf
-            <label for="txtNome">Nome:</label>
+            <label for="txtNome">Nome do Usuário</label>
             <input type="text" name="nome" id="txtnome">
             <br><br>
-            <label for="txtidade">Idade: </label>
+            <label for="txtidade">Idade do Usuário</label>
             <input type="text" name="idade" id="txtIdade">
             <br><br>
-            <button type="submit">Confirmar</button>
+            <button type="submit">Cadastrar</button>
         </form>
 
         <br><br>
-        <a href="/">Voltar</a>
+        <a href="/">Retornar</a>
     </center>
 </body>
 

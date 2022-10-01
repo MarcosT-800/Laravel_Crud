@@ -10,14 +10,13 @@
 
 <body>
     <center>
-        <h1>Bem vindo ao CRUD Laravel!</h1>
-        <h3>Feito por Emily Leme</h3>
+        <h1>Welcome</h1>
 
-        <br><br>
+        <br/>
 
-        <a href="/cadastro">Cadastrar Usuário</a>
+        <a href="/cadastro">Cadastrar</a>
         &nbsp;&nbsp;&nbsp;
-        <a href="/listar">Listar Cadastros</a>
+        <a href="/listar">Listar</a>
     </center>
 </body>
 

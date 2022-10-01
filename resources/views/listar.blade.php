@@ -21,7 +21,7 @@
 <body>
 
     <center>
-        <h1>Listagem de usuários</h1>
+        <h1>Listagem</h1>
         <br><br>
 
         <table>
@@ -47,7 +47,7 @@
         </table>
 
         <br><br>
-        <a href="/">Voltar</a>
+        <a href="/">retornar</a>
     </center>
 </body>
 
